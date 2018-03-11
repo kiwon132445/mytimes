@@ -1,0 +1,36 @@
+a {
+  color:black;
+}
+
+.header {
+  display:flex;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom:1px solid black;
+  align-items: center;
+  justify-content:space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border:1px solid black;
+}
+.logo span {
+  color:MediumAquamarine;
+  padding-left: 10px;
+}
+.links {
+  display: inline-block;
+  padding-right:25px;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.border {
+  border:1px solid black;
+}
+.thick {
+  border:3px solid black;
+}
