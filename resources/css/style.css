@@ -44,10 +44,12 @@ a {
 
 
 .main {
+  width:1300px;
   margin:0 100px 100px 100px;
   position:relative;
   top:100px;
-  display:flex;
+  display: flex;
+  justify-content: center;
 }
 .column {
   flex-direction: column;
