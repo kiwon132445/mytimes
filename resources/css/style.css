@@ -4,6 +4,7 @@ a {
 
 .header {
   display:flex;
+  height:80px;
   width: 100%;
   font-family: Verdana;
   font-size: 14px;
@@ -11,12 +12,16 @@ a {
   border-bottom:1px solid black;
   align-items: center;
   justify-content:space-between;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
 }
 .logo {
   display: flex;
   align-items: center;
   padding-left: 30px;
   border:1px solid black;
+  flex-grow: 1;
 }
 .logo span {
   color:MediumAquamarine;
@@ -28,9 +33,34 @@ a {
   flex-wrap: wrap;
   justify-content:space-around;
 }
+
+
 .border {
   border:1px solid black;
 }
 .thick {
   border:3px solid black;
+}
+
+
+.main {
+  margin:0 100px 100px 100px;
+  position:relative;
+  top:100px;
+  display:flex;
+}
+.column {
+  flex-direction: column;
+  display: flex;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
